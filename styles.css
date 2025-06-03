@@ -1,5 +1,6 @@
 body {
     background-color: #0d0d0d;
+    animation: pulseBg 4s infinite alternate;
 }
 @keyframes pulseBg {
     0% {
