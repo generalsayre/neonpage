@@ -12,3 +12,7 @@ body {
         box-shadow: 0 0 40px #00fff7, 0 0 80px #00fff7, 0 0 120 #00fff7;
     }
 }
+p {
+    color:whitesmoke;
+    font-family: monospace;
+}
