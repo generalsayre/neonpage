@@ -1,6 +1,19 @@
-body {
+.header {
+    font-family: 'Orbiton', monospace;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 0vh;
+    margin: 0;
+}
+img {
+  border: 5px solid rgb(102,0,60);
+  border-radius: 1px;
+  box-shadow: 0px 0px 0px 8px rgb(102,0,60);
+}
+
+.middle {
     background-color: #ffffff;
-    animation: pulseBg 4s infinite alternate;
     font-family: 'Orbitron', monospace;
     display: flex;
     justify-content: center;
@@ -8,23 +21,13 @@ body {
     height: 100vh;
     margin: 0;
 }
-@keyframes pulseBg {
-    0% {
-        background-color:#ffffff;
-        box-shadow: 0 0 20px #00fff7, 0 0 40px #00fff7, 0 0 60px #00fff7;
-    }
-    100% {
-        background-color: #ffffff;
-        box-shadow: 0 0 40px #00fff7, 0 0 80px #00fff7, 0 0 120px #00fff7;
-    }
-}
 p {
     color:rgb(0, 0, 0);
 }
 .author {
     color: rgb(0, 0, 0);
     font-size: 28px;
-    margin: auto;
+    margin: 9px;
 }
 a {
     color: rgb(0, 0, 0);
@@ -33,6 +36,7 @@ a {
 .upright {
   writing-mode: vertical-rl;
   text-orientation: upright;
+  margin: 7px;
 }
 
 a:hover {
