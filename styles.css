@@ -55,3 +55,10 @@ a:hover {
         overflow-x: hidden;
     }
 }
+.about {
+    border-color: #e7e7e7;
+    color: black;
+}
+.about:hover {
+    background:rgb(255,179,0);
+}
