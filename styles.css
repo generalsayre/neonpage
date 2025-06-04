@@ -22,13 +22,21 @@ p {
     color:whitesmoke;
 }
 .author {
-    color: gold;
-    font-size: 33px;
+    color: aliceblue;
+    font-size: 28px;
     margin: auto;
 }
 a {
     color: white;
+    text-decoration: none;
 }
 .upright {
+  writing-mode: vertical-rl;
   text-orientation: upright;
+}
+
+a:hover {
+  color:rgb(255,179,0);
+  text-shadow:0 0 5px #65272C;
+  transform: scale(1.4);
 }
