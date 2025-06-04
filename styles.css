@@ -17,7 +17,10 @@ p {
     font-family: monospace;
 }
 .author {
-    color: white
+    font-family: Monospace;
+    color: gold;
+    font-size: 33px;
+    margin: auto;
 }
 a {
     color: white;
