@@ -17,13 +17,8 @@ p {
     font-family: monospace;
 }
 .author {
-    animation: GlowLetter 7s infinite alternate;
+    color: white
 }
-@keyframes GlowLetter {
-    0% {
-        box-shadow: 0 0 20px white, 0 0 40px white, 0 0 60px white;
-    }
-    100% {
-        box-shadow: 0 0 40px whitesmoke, 0 0 80px whitesmoke, 0 0 120px whitesmoke;
-    }
+a {
+    color: white;
 }
