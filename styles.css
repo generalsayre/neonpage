@@ -9,10 +9,27 @@ body {
     }
     100% {
         background-color: #0d0d0d;
-        box-shadow: 0 0 40px #00fff7, 0 0 80px #00fff7, 0 0 120 #00fff7;
+        box-shadow: 0 0 40px #00fff7, 0 0 80px #00fff7, 0 0 120px #00fff7;
     }
 }
 p {
     color:whitesmoke;
     font-family: monospace;
+}
+
+.author {
+    background-color:white;
+    animation: GlowLetter 7s infinite alternate;
+
+}
+
+@keyframes GlowLetter {
+    0% {
+        background-color:whitesmoke;
+        box-shadow: 0 0 20px white, 0 0 40px white, 0 0 60px white;
+    }
+    100% {
+        background-color:whitesmoke;
+        box-shadow: 0 0 40px white, 0 0 80px white, 0 0 120px white;
+    }
 }
