@@ -1,5 +1,5 @@
 body {
-    background-color: #0d0d0d;
+    background-color: #ffffff;
     animation: pulseBg 4s infinite alternate;
     font-family: 'Orbitron', monospace;
     display: flex;
@@ -10,11 +10,11 @@ body {
 }
 @keyframes pulseBg {
     0% {
-        background-color:#0d0d0d;
+        background-color:#ffffff;
         box-shadow: 0 0 20px #00fff7, 0 0 40px #00fff7, 0 0 60px #00fff7;
     }
     100% {
-        background-color: #0d0d0d;
+        background-color: #ffffff;
         box-shadow: 0 0 40px #00fff7, 0 0 80px #00fff7, 0 0 120px #00fff7;
     }
 }
@@ -22,12 +22,12 @@ p {
     color:whitesmoke;
 }
 .author {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 28px;
     margin: auto;
 }
 a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 .upright {
