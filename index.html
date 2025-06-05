@@ -2,20 +2,32 @@
 <html>
   <body>
     <nav>
-        <button class= "btn"><a href="about.html">about</a></button>
+        <button class= "btn"><a href="about.html" class ="links">about</a></button>
     </nav>
     <div class="middle">
     <link rel="stylesheet" href="styles.css" />
     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgterrWpiDi7zHg1zPXA24mPS-nBYCn5d39Y6cDVoL2oBSaPh85iphEloDuxop_CrfvVldsSVcUK2VFDmg1PFVwP_UKwvds0fuXWKRy_qLp8oFvd5lgHiuRRb0vmktXfLsqHqKin4zLzI7c/s1600/baroque-ps1.gif"></img>
-    <h6 class="author" class="upright"> levi <a href="https://en.wikipedia.org/wiki/Zelda_Fitzgerald">sayre</a> </h6>
-    <p class="upright"><a href="https://generalsayre.github.io/journal/">JOURNAL</a></p>
-    <p class="upright"><a href="https://generalsayre.bandcamp.com/">MUSIC</a></p>
-    <p class="upright"><a href="mailto:levi.is.dreaming@gmail.com">EMAIL</a></p>
+    <h6 class="author" class="upright"> levi <a href="https://en.wikipedia.org/wiki/Zelda_Fitzgerald" class="links">sayre</a> </h6>
+    <p class="upright"><a href="https://generalsayre.github.io/journal/" class = "links">JOURNAL</a></p>
+    <p class="upright"><a href="https://generalsayre.bandcamp.com/" class ="links">MUSIC</a></p>
+    <p class="upright"><a href="mailto:levi.is.dreaming@gmail.com" class ="links">EMAIL</a></p>
     <p> Aspiring soulware engineer who started in May 2025 - currently using <u>html</u>, <u>css</u>, and <u>javascript</u>, to make dreams come true.</p>
 
 
     </div>
     
     <p></p>
+    <script>
+      const hoverSound = new Audio('https://assets.onecompiler.app/43jyj7jhc/43ks4fre7/angel-choir.mp3');
+      hoverSound.volume = 0.2;
+      const links = document.querySelectorAll('.links');
+
+    links.forEach(link => {
+      link.addEventListener('mouseenter', () => {
+        hoverSound.currentTime = 0;
+        hoverSound.play();
+      });
+    });
+    </script>
     </body>
 </html>
